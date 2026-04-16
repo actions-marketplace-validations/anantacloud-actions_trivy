@@ -1,0 +1,36 @@
+name: 'Custom Trivy Scanner'
+description: 'Scan images or filesystems for vulnerabilities with caching support'
+author: 'Ananta Cloud'
+
+inputs:
+  scan-type:
+    description: 'Type of scan (image, fs, config, rootfs)'
+    default: 'fs'
+    required: true
+  scan-target:
+    description: 'The target to scan (e.g. "." or "nginx:latest")'
+    default: '.'
+    required: true
+  severity:
+    description: 'Severities to include (UNKNOWN,LOW,MEDIUM,HIGH,CRITICAL)'
+    default: 'HIGH,CRITICAL'
+  exit-code:
+    description: 'Exit code when vulnerabilities are found (0 to pass, 1 to fail)'
+    default: '0'
+  ignore-unfixed:
+    description: 'Ignore vulnerabilities without a fixed version'
+    default: 'false'
+  trivy-version:
+    description: 'Specific Trivy version to use'
+    default: '0.48.3'
+  format:
+    description: 'Output format (table, json, sarif)'
+    default: 'table'
+
+branding:
+  color: blue
+  icon: lock
+  
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
