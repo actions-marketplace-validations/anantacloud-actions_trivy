@@ -23,6 +23,9 @@ inputs:
   trivy-version:
     description: 'Specific Trivy version to use'
     default: '0.48.3'
+  generate-sbom:
+    description: 'Generate a CycloneDX SBOM instead of a vulnerability scan'
+    default: 'false'
   format:
     description: 'Output format (table, json, sarif)'
     default: 'table'
