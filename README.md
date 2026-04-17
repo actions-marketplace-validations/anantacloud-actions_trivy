@@ -88,13 +88,3 @@ If you find this action useful, please consider giving it a ⭐ **Star** on GitH
 
 ## 📜 License
 Distributed under the **MIT License**.
-
----
-
-### 💡 Pro-Tip for the Marketplace:
-To make your action stand out, follow these steps to add a real screenshot:
-1. Run your action in a public repository.
-2. Go to the **Actions** tab and click on the specific run.
-3. Take a screenshot of the **"Trivy Security Report"** summary at the bottom.
-4. Upload that image to a folder named `docs/` in your repo.
-5. Update the README to link to that local file: `![Summary View](docs/my-screenshot.png)`. GitHub will render it perfectly in the Marketplace.
