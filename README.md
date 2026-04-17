@@ -12,6 +12,16 @@ This is a **high-performance, Node.js-based** GitHub Action for [Trivy](https://
 
 ---
 
+## 🎬 See It In Action (30 sec)
+
+<p align="center">
+  <img src="docs/trivy.gif" width="800" alt="Trivy Scan Demo"/>
+  <br/>
+  <em>Automated Vulnerbility Scanning 🚀</em>
+</p>
+
+---
+
 ## 🚀 Why choose this over the official action?
 
 | Feature | Official Trivy Action | This Ultimate Action |
