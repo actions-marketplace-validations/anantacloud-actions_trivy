@@ -1,9 +1,3 @@
-You are absolutely right—I used a placeholder URL for the screenshot. Since this is your custom action, you should replace that link with a real screenshot once you run the action for the first time.
-
-In the meantime, I have updated the README below. I replaced the broken image link with a **Markdown-based preview** of the Job Summary and added a "How to add your own screenshot" section to help you polish the Marketplace page.
-
----
-
 # 🛡️ Ultimate Trivy Vulnerability Scanner
 
 [![Build Status](https://img.shields.io/github/actions/workflow/status/anantacloud-actions/trivy/main.yml?branch=main&style=for-the-badge)](https://github.com/anantacloud-actions/trivy/actions)
