@@ -12,6 +12,9 @@
     "@actions/exec": "^1.1.1",
     "@actions/tool-cache": "^2.0.1"
   },
+  "overrides": {
+    "undici": "^6.23.1"
+  },
   "devDependencies": {
     "@vercel/ncc": "^0.38.1"
   }
