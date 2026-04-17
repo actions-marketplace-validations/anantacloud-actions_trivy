@@ -1,6 +1,6 @@
 # 🛡️ Ultimate Trivy Vulnerability Scanner
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/anantacloud-actions/trivy/main.yml?branch=main&style=for-the-badge)](https://github.com/anantacloud-actions/trivy/actions)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/anantacloud-actions/trivy/.github/workflows/main.yml?branch=main&style=for-the-badge)](https://github.com/anantacloud-actions/trivy/actions)
 [![Marketplace](https://img.shields.io/badge/Marketplace-Ultimate--Trivy-blue?logo=github&style=for-the-badge)](https://github.com/marketplace/actions/ultimate-trivy-scanner)
 [![GitHub stars](https://img.shields.io/github/stars/anantacloud-actions/trivy?style=for-the-badge&color=gold)](https://github.com/anantacloud-actions/trivy/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
